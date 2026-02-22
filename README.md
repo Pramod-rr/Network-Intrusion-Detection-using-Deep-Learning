@@ -19,18 +19,24 @@ The dataset is automatically downloaded from Kaggle using the opendatasets libra
 ### Data preprocessing:
 
 One-hot encoding for categorical variables (service, state)
+
 Standardization of numerical features
+
 Label encoding for protocol (proto)
 
 ### Hybrid model architecture:
 
 Embedding layer for protocol feature
+
 Dense neural network for classification
 
 ### Performance metrics:
 Accuracy
+
 AUC
+
 Precision
+
 Recall
 
 ## Installation
